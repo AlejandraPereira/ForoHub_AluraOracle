@@ -1,4 +1,4 @@
-Challenge ForoHub 
+# **Challenge ForoHub** 
 
 ____________________________________________________
 
@@ -6,7 +6,7 @@ ForoHub is a REST API developed using Spring Boot 3, designed to simulate the fu
 
 ____________________________________________________
 
-Features
+## **Features**
 
 ____________________________________________________
 
@@ -23,7 +23,7 @@ Delete topics: Allows you to delete a topic from the forum.
 
 ____________________________________________________
 
-Installation
+# I**nstallation**
 
 ____________________________________________________
 
@@ -37,7 +37,7 @@ PostgreSQL configured and running.
 
 ____________________________________________________
 
-Steps
+## **Steps**
 
 ____________________________________________________
 
@@ -48,14 +48,24 @@ ____________________________________________________
 
     git clone https://github.com/JuanJoseVillamizar/ForoHub.git
     cd foro-hub
+
 3- Configure your environment variables or update application.properties:
 
-    spring.datasource.url= jdbc:postgresql://{DB_HOST}/{DB_NAME_FORO}
-    spring.datasource.username={DB_USER}
-    spring.datasource.password={DB_PASSWORD}
-    security.jwt.key.private=${PRIVATE_KEY}
-    security.jwt.user.generator=${USER_GENERATOR}
-    security.authjwt.backend=${YOUR_AUTHORIZATION}
+#### data base configuration
+
+    spring.datasource.url=jdbc:postgresql://${DB_HOST}
+    spring.datasource.username=${DB_USER}
+    spring.datasource.password=${DB_PASSWORD}
+    spring.datasource.driver-class-name=org.postgresql.Driver
+    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+#### Flyway configuración for database migrations
+    spring.flyway.url=jdbc:postgresql://${DB_HOST}
+    spring.flyway.user=${DB_USER}
+    spring.flyway.password=${DB_PASSWORD}
+
+####  JWT secret for tests
+    api.security.secret= ${JWT_SECRET}
     
 4- Compile and run project
 
@@ -66,11 +76,11 @@ ____________________________________________________
 
 ____________________________________________________
 
-Technologies Used
+## **Technologies Used**
 
 ____________________________________________________
 
-Backend
+### Backend
 
 Java 17: Main programming language.
 
@@ -86,7 +96,7 @@ Spring test: Test.
 
 ____________________________________________________
 
-Database
+### Database
 
 
 PostgreSQL: Relational database.
@@ -103,7 +113,7 @@ Maven: Dependency management.
 
 ____________________________________________________
 
-Interactive Documentation
+## **Interactive Documentation**
 
 ____________________________________________________
 
@@ -114,7 +124,7 @@ You can explore and test the API endpoints using the Swagger-generated documenta
 
 ____________________________________________________
 
-Security
+## **Security**
 
 ____________________________________________________
 
@@ -129,7 +139,7 @@ BCrypt: For password encryption.
 
 ____________________________________________________
 
-Contributions
+## **Contributions**
 
 ____________________________________________________
 
