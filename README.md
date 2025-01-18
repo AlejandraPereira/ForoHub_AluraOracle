@@ -1,8 +1,16 @@
-ForoHub - Challenge Backend ONE Alura
+
+Challenge ForoHub 
+
+____________________________________________________
 
 ForoHub is a REST API developed using Spring Boot 3, designed to simulate the functionality of a forum.
 
+____________________________________________________
+
 Features
+
+____________________________________________________
+
 
 Login: By entering a valid email and password, a JWT token is generated that allows access to the other functionalities in a secure manner.
 
@@ -14,7 +22,11 @@ Edit topics: Allows you to modify a specific topic.
 
 Delete topics: Allows you to delete a topic from the forum.
 
+____________________________________________________
+
 Installation
+
+____________________________________________________
 
 Prerequisites
 
@@ -24,7 +36,12 @@ Maven installed.
 
 PostgreSQL configured and running.
 
-Steps:
+____________________________________________________
+
+Steps
+
+____________________________________________________
+
 
 1- Create a database and connect to it using environment variables or by modifying the application.properties file.
 
@@ -48,7 +65,11 @@ Steps:
 
 5- Access the application at http://localhost:8080.
 
+____________________________________________________
+
 Technologies Used
+
+____________________________________________________
 
 Backend
 
@@ -64,7 +85,10 @@ Spring Validation: Input validations.
 
 Spring test: Test.
 
+____________________________________________________
+
 Database
+
 
 PostgreSQL: Relational database.
 
@@ -78,13 +102,23 @@ Lombok: Simplifies Java code.
 
 Maven: Dependency management.
 
+____________________________________________________
+
 Interactive Documentation
+
+____________________________________________________
+
 
 You can explore and test the API endpoints using the Swagger-generated documentation. Once the project is running, access it at:
 
 [Swagger](http://localhost:8080/swagger-ui/index.html)
 
+____________________________________________________
+
 Security
+
+____________________________________________________
+
 
 The backend implements authentication and authorization using:
 
@@ -94,7 +128,11 @@ JWT Tokens: To protect API endpoints.
 
 BCrypt: For password encryption.
 
+____________________________________________________
+
 Contributions
+
+____________________________________________________
 
 ¡Contributions are welcomed! to contribute:
 
