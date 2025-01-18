@@ -1,6 +1,5 @@
 # **Challenge ForoHub** 
 
-____________________________________________________
 
 ForoHub is a REST API developed using Spring Boot 3, designed to simulate the functionality of a forum.
 
@@ -25,7 +24,6 @@ ____________________________________________________
 
 # I**nstallation**
 
-____________________________________________________
 
 Prerequisites
 
@@ -39,7 +37,6 @@ ____________________________________________________
 
 ## **Steps**
 
-____________________________________________________
 
 
 1- Create a database and connect to it using environment variables or by modifying the application.properties file.
@@ -78,7 +75,6 @@ ____________________________________________________
 
 ## **Technologies Used**
 
-____________________________________________________
 
 ### Backend
 
@@ -115,8 +111,6 @@ ____________________________________________________
 
 ## **Interactive Documentation**
 
-____________________________________________________
-
 
 You can explore and test the API endpoints using the Swagger-generated documentation. Once the project is running, access it at:
 
@@ -125,8 +119,6 @@ You can explore and test the API endpoints using the Swagger-generated documenta
 ____________________________________________________
 
 ## **Security**
-
-____________________________________________________
 
 
 The backend implements authentication and authorization using:
@@ -141,7 +133,6 @@ ____________________________________________________
 
 ## **Contributions**
 
-____________________________________________________
 
 ¡Contributions are welcomed! to contribute:
 
