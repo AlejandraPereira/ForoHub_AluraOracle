@@ -1,0 +1,2 @@
+ALTER TABLE topico
+ADD COLUMN topicId BIGINT;
