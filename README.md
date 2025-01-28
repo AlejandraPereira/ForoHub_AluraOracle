@@ -37,7 +37,7 @@ PostgreSQL configured and running.
 
 2- Clone this repository:
 
-    git clone https://github.com/JuanJoseVillamizar/ForoHub.git
+    git clone https://github.com/AlejandraPereira/ForoHub_AluraOracle.git
     cd foro-hub
 
 3- Configure your environment variables or update application.properties:
